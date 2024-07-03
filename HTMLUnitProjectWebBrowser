@@ -1,0 +1,106 @@
+<h1>HTML Unit Browser Project</h1>
+<hr>
+
+    <h2>Chrome</h2>
+    <br>
+    <b>Pros:</b> 
+    <br>
+    
+    <p>One of the most simple browsers to use. Other browsers can be difficult to understand and navigate, however, Chrome is user-friendly and has a simple and intuitive interface. 
+    Compatible with a wide range of devices which makes it a top choice for users who want to access web content from a laptop, desktop, smartphone, or tablet.</p>
+    
+    
+    <b>Cons:</b>
+    <br>
+    <p>Requires a relatively larger amount of processing power and RAM memory in comparison to other browsers which is sometimes a problem when using it on a device with low specs.
+    Privacy concerns regarding the data that it collects about its users and their activities.</p>
+    <br>
+    <h2>Safari</h2>
+    <br>
+    <b>Pros:</b>
+    <br>
+    <p>One of the positive benefits of Safari is that it is part of Apple's ecosystem.
+    Recent upgrades like Private Relay help to protect users.
+    Safari has a user friendly interface.</p>
+    
+    
+    <b>Cons:</b>
+<br>
+    
+   <p> Limited compatibility. Safari is strictly available on Apple products.
+    Issues with privacy-oriented features. Some features within the Safari browser might not be as private as assumed. 
+    Safari enables cross-site tracking which means companies can track users' activities across multiple websites. While this is a benefit for marketing purposes, users often find violates privacy so they choose options like DuckDuckGo instead. </p>
+   <h2>DuckDuckGo</h2> 
+    
+    <b>Pros:</b>
+    
+    <p>DuckDuckGoPrioritizes users' privacy.
+    No personalized ads that make it feel like someone is tracking you.
+    Your information is not sold or provided to third parties.</p>
+    <b>Cons:</b>
+
+    <p>Not as convenient as Google.
+    No personalization can result in less relevant search results.</p>
+    
+    
+    <h2>Firefox</h2>
+    
+    <b>Pros:</b>
+    
+    <p>Speed and performance, including fast page-loading times and efficient memory usage.
+    Prioritizes user privacy and security with features like enhanced tracking protection and automatic blocking of known malicious websites.</p>
+    
+    
+   <b>Cons:</b>
+    
+    <p>Excessive RAM usage.
+    Smaller extension library.
+    Doesn't integrate well with Google services.</p>
+    
+    
+   <b> Define what a web browser is: </b>
+    <br>
+    <p><i>Through a connection to the internet, a web browser is a software application that enables you to see and search text, images, and video from anywhere on the World Wide Web. </i></p>
+    <br>
+    <b>Explain the role of web browsers in accessing information on the internet:</b>
+    
+    <p><i>A web browser retrieves information from anywhere on the internet and displays it on your desktop or mobile device. The information is transferred using the Hypertext Transfer Protocol, which defines how text, images and video are transmitted on the web.</i></p>
+    
+    
+    
+    <b>Discuss the evolution of browsers and their impact on internet usage:</b>
+    <br>
+    <p><i>Since the dawn of the internet, many different browsers have come and gone. Each has built on the ones before it to expand and continouously perfect internet browsing. This has increased usage and brought the web to people all over the world.</i></p>
+    
+    
+    
+     <b>Describe the basic functioning of a browser when accessing a web page:</b>
+    <br>
+    <p><i>A web browser is essentially a platform to access websites from across the internet. Users can visit different websites by entering the unique URL of the website on a web browser. Browsers also have navigation features which include a navigation bar, tabs, and other tools to make searching the internet easier.</i></p>
+    
+    
+    
+   <b>Explain the importance of web standards in ensuring a consistent browsing experience:</b> 
+    <br>
+   <p><i> To ensure a consistent browsing experience, web standards:
+    
+    Improve accessibility: Following accessibility guidelines makes websites more usable, thus widening the reach of the web to a broader audience. This inclusivity is not only ethically important from a disability or income perspectivr, but can also expand market reach for companies. 
+    Enhance user experience: Web standards are essential in today's website development because they promote compatibility, security, and user experience while ensuring that websites remain functional and adaptable in a rapidly evolving digital landscape.</i></p>
+    
+    
+    <b>Dicuss the concept of cookies and their role in web browsing:</b>
+    <br>
+   <p><i> Cookies are small pieces of text sent to your browser by a website you visit. They help that website remember information about your visit, which can both make it easier to visit the site again and make the site more useful to you. However, they also open the door to privacy concerns as they give companies more information about your location and habits.</i></p>
+    
+    
+    
+   <p><i> Privacy concerns associated with cookies especially third party cookies 
+    
+    By tracking browsing habits, third-party cookies contribute to the development of detailed user profiles which can raise serious privacy concerns. The gathering of such information allows for the targeted delivery of advertisements and content, often without users' explicit consent.</i></p>
+    <img ="image-asset" src="https://media.istockphoto.com/id/942286504/vector/desktop-computer-icon-vector-isolated.jpg?s=100x24&amp;w=is&amp;k=20&amp;c=Jp0mQ8pggssAeIQE9B769AYy_dZVQ7MyLj1qf1Cfj6o=" alt="Desktop Computer">
+    
+    
+    
+    
+    
+    
