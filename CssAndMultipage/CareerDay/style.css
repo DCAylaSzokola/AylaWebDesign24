@@ -1,0 +1,45 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #e6f7ff;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #3399ff;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #0073e6;
+    padding: 1em;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.content img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #3399ff;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
