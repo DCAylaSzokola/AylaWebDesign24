@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Add this in the head section -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayla's Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        .navbar {
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 15px;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 15px;
+            font-size: 18px;
+        }
+        .container {
+            display: flex;
+        }
+        .sidenav {
+            height: 100vh;
+            width: 200px;
+            background-color: #111;
+            padding-top: 20px;
+            box-sizing: border-box;
+        }
+        .sidenav a {
+            padding: 10px 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #818181;
+            display: block;
+        }
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+        .main-content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .gallery-header {
+            background-color: #8c6f87;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .gallery-item {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ayla's Portfolio</h1>
+        <div class="navbar">
+            <a href="http://127.0.0.1:3000/Unit3bootstrap/castle-gallery.html">Galleries</a>
+            <a href="http://127.0.0.1:3000/Unit3bootstrap/pricing.html">Pricing</a>
+            <a href="http://127.0.0.1:3000/Unit3bootstrap/contact.html">Contact Me</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="sidenav">
+            <a href="http://127.0.0.1:3000/Unit3bootstrap/endangeredanimals">Endangered Animals</a>
+            <a href="http://127.0.0.1:3000/Unit 2 CSS/Unit3project">Pollution</a>
+            <a href="http://127.0.0.1:3000/Unit3bootstrap/finalproject/homepage.html">Art</a>
+            <a href="http://127.0.0.1:3000/Unit3bootstrap/castle-gallery.html">Castles</a>
+        
+        </div>
+        <div class="main-content">
+            <div class="gallery-header">
+                The Galleries
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Chateau-de-Vincennes-donjon.jpg" class="d-block w-100" alt="Castle">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://i0.wp.com/www.sweetlightphotos.com/wp-content/uploads/2022/08/2022-08-08_Maara-21333-Edit-1.jpg" class="d-block w-100" alt="Sunset">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/800px-Cat_November_2010-1a.jpg" class="d-block w-100" alt="Cat">
+                  </div>
+                </div>
+              </div>
+
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Chateau-de-Vincennes-donjon.jpg" class="d-block w-100" alt="Castle">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Castle</h5>
+                            <p>Check out this castle.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="https://i0.wp.com/www.sweetlightphotos.com/wp-content/uploads/2022/08/2022-08-08_Maara-21333-Edit-1.jpg" class="d-block w-100" alt="Cat">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Sunset</h5>
+                            <p>Take time to enjoy.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/800px-Cat_November_2010-1a.jpg" class="d-block w-100" alt="Cats">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Sunset</h5>
+                            <p>Isn't he cute?</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
